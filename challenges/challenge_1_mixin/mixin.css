@@ -1,6 +1,7 @@
 /* created a class called box and passed the background-color and size*/
 .box {
-  width: 200;
-  height: 100;
+  width: 200px;
+  height: 100px;
+  background-color: #bada55;
 }
 /*# sourceMappingURL=mixin.css.map */
