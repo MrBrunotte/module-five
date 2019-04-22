@@ -1,6 +1,12 @@
 .btn {
     @extend %reset;
+
+    @include tablet {
+        font-size: 10px;
+    }
 }
+
+
 
 .btn-default {
     @include button($red, 300px);

@@ -163,26 +163,7 @@ $random: 5; /* fixed value of 5 */
 /* Mixins are similar to functions and are used for code that you want to reuse throughout your site
     Mixin called button */
 
-@mixin button($color, $size) {
-    width: $size;
-    height: $size / 2;
-    border: 1px solid $color;
 
-    @if color == #e84610 {
-        color: #fff;
-    }
-    @else {
-        color: $color;
-    }
-}
-
-@mixin unicornify() {
-    background-color: pink;
-    color: white;
-    @content;
-    font-size: 30px;
-    font-weight: bold;
-}
 
 p {
     @include unicornify {
@@ -205,3 +186,16 @@ h1 {
 /*------------------END OF VIDEO 4 ----------------------------*/ 
 
 /*----------- STRUCTURING YOUR PROJECT WITH SCSS (1 VIDEO) ----------*/
+/* go to the webpage: thesassway.com to see how to structure the files */
+
+@import "helpers/variables";
+@import "helpers/helpers";
+@import "helpers/mixins";
+@import "helpers/media_queries";
+
+@import "components/buttons";
+@import "components/footer";
+@import "components/navigation";
+
+@import "pages/about";
+@import "pages/home";
