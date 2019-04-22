@@ -1,0 +1,13 @@
+.btn {
+    @extend %reset;
+}
+
+.btn-default {
+    @include button($red, 300px);
+}
+
+.btn-unicorn {
+    @include unicornify {
+        font-family: Helvetica, sans-serif;
+    }
+}

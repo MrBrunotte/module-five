@@ -1,0 +1,12 @@
+/* go to the webpage: thesassway.com to see how to structure the files */
+
+@import "helpers/variables";
+@import "helpers/helpers";
+@import "helpers/mixins";
+
+@import "components/buttons";
+@import "components/footer";
+@import "components/navigation";
+
+@import "pages/about";
+@import "pages/home";
