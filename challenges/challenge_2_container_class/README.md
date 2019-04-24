@@ -13,7 +13,7 @@ Open the challenge2.scss file. There is a list of the colors. Your task is to ge
 
 $colors: #aaa, #bbb, #ccc, #ddd;
 
-Part one: 
+Part one:
 @each $var in list {}
 
 @each $color in $colors {

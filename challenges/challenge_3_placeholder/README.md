@@ -8,13 +8,13 @@ Is something wrong with this code? How can we improve it? Is something repetitiv
 
 ### My thoughts
 
-REMEMBER: Starts with $placeholderName and is extended with @extend.
+REMEMBER: Starts with $placeholderName and then extend the placeholder with @extend into a class or a selector (div etc).
 
 A placeholder is lika a bunch of code that's not going to be used immediately, as it is only used when you extend it in a CSS class (@extend).
 A placeholder starts with a % (ex. %backgroundImage).
 For example we might whant to set some properties for our divs: size, position and repeat. Since we do this in the placeholder we inherit the properties everytime we add a new div and we can for example add a different image to each div but with the same properites.
 
-1) I first put all the code in the placeholder (%background):
+1)I first put all the code in the placeholder (%background):
 
 %background {
     background {
@@ -24,15 +24,15 @@ For example we might whant to set some properties for our divs: size, position a
     }
 }
 
-2) I then extend the placeholder in the div:
+2)I then extend the placeholder in the div:
 
 div {
     @extend %background;
 }
 
-3) Now that I extended the placeholder into the div, all div's will be compiled with the background properties!
+3)Now that I extended the placeholder into the div, all div's will be compiled with the background properties!
 
-4) I can now add, an image into a class within the div:
+4)I can now add, an image into a class within the div:
 
 .article {
     background-image: url();

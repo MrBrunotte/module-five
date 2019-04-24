@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,sFAAsF;AAEtF,AAGY,UAHF,CACN,UAAU,CACN,CAAC,AACI,MAAM,CAAC;EACJ,KAAK,EAAE,GAAG;EACV,gBAAgB,EAAE,MAAM;CAC3B",
+    "sources": [
+        "challenge_4_selector.scss"
+    ],
+    "names": [],
+    "file": "challenge_4_selector.css"
+}

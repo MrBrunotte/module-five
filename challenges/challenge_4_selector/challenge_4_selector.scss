@@ -1,0 +1,12 @@
+/* Nested classes. We want to style specific anchor links within a  hover red effect*/
+
+.container {
+    .listRight {
+        a {
+            &:hover {
+                color: red;
+                background-color: yellow;
+            }
+        }
+    }
+}
