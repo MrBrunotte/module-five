@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,qCAAqC;AAGrC,iEAAiE;AAG7D,AAAA,YAAY,CAAK;EACb,gBAAgB,EANf,IAAI;CAOR;;AAFD,AAAA,YAAY,CAAK;EACb,gBAAgB,EANT,IAAI;CAOd;;AAFD,AAAA,YAAY,CAAK;EACb,gBAAgB,EANH,IAAI;CAOpB;;AAFD,AAAA,YAAY,CAAK;EACb,gBAAgB,EANG,IAAI;CAO1B",
+    "sources": [
+        "challenge2.scss"
+    ],
+    "names": [],
+    "file": "challenge2.css"
+}

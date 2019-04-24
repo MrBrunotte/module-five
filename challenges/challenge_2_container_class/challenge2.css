@@ -1,0 +1,18 @@
+/* 4 variables in the object colors*/
+/* 4 classes are generated containing each color in the object */
+.container-1 {
+  background-color: #aaa;
+}
+
+.container-2 {
+  background-color: #bbb;
+}
+
+.container-3 {
+  background-color: #ccc;
+}
+
+.container-4 {
+  background-color: #ddd;
+}
+/*# sourceMappingURL=challenge2.css.map */

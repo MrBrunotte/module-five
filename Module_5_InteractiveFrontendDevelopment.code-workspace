@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "pt_1_Sass"
+		},
+		{
+			"path": "pt_2_MakingSureItWorks"
+		},
+		{
+			"path": "pt_3_jQuery"
+		},
+		{
+			"path": "pt_4_DataToLife"
+		},
+		{
+			"path": "pt_5_DataVisualization"
+		},
+		{
+			"path": "pt_6_ExternalResourses"
+		},
+		{
+			"path": "pt_7_PuttingItTogether"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "pt_1_Sass"
+	}
+}

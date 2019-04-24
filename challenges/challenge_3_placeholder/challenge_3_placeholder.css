@@ -1,0 +1,24 @@
+/* The classes all have the same border and border-radius properties so we put them into a placeholder for reuse!*/
+.container, .wrapper, .item {
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+/* the %border placeholder is extended into each class for reuse */
+.container {
+  width: 1280px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.wrapper {
+  float: left;
+  position: relative;
+}
+
+.item {
+  font-size: 14px;
+  font-family: "Sans Pro", sans-serif;
+  font-weight: 700;
+}
+/*# sourceMappingURL=challenge_3_placeholder.css.map */

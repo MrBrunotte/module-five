@@ -1,0 +1,10 @@
+/* 4 variables in the object colors*/
+$colors: #aaa, #bbb, #ccc, #ddd;
+
+/* 4 classes are generated containing each color in the object */
+@each $color in $colors {
+    $i: index($colors, $color);
+    .container-#{$i} {
+        background-color: $color;
+    }
+}
